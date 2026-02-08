@@ -24,7 +24,7 @@ This project is a demonstration of a professional **Continuous Integration and C
 
 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/awoladhossain/backend-cicd-practice](https://github.com/awoladhossain/backend-cicd-practice)
 cd your-repo-name
 ```
 
