@@ -9,8 +9,6 @@ app.get("/", (req, res) => {
 
 const add = (a, b) => a + b;
 
-// পরিবর্তন এখানে:
-// যদি এনভায়রনমেন্ট 'test' না হয়, তবেই কেবল সার্ভার চালু হবে।
 if (process.env.NODE_ENV !== "test") {
   app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
